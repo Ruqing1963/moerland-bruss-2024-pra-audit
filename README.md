@@ -105,9 +105,9 @@ pdflatex unequal_dimension_bell_projection_audit.tex   # run three times
 > R. Chen, *Entanglement generation by unequal-dimension Bell-diagonal projections and a no-go
 > theorem for local twirling: an audit and restoration of Phys. Rev. A 109, 012217 (2024)*,
 > manuscript dated November 17, 2026.
-> https://github.com/Ruqing1963/unequal-dimension-bell-projection-audit
+> https://github.com/Ruqing1963/moerland-bruss-2024-pra-audit
 
-A Zenodo DOI will be added here once the archive has been created.
+Archived at Zenodo: [doi:10.5281/zenodo.24432857](https://doi.org/10.5281/zenodo.24432857).
 
 ## AI assistance
 
