@@ -1,0 +1,190 @@
+﻿
+====================================================================================================
+A1. Generalised Bell basis, the commuting pair (C, D) and Pi as an abelian twirl
+====================================================================================================
+  [PASS] 2x3: Bell basis orthonormal; [C,D]=0; C,D diagonal in Bell basis; Pi = <C,D>-twirl; rho_P = sum lambda C^mu D^nu/(dA dB)
+  [PASS] 2x3: C == X_A(x)X_B is False
+  [PASS] 2x4: Bell basis orthonormal; [C,D]=0; C,D diagonal in Bell basis; Pi = <C,D>-twirl; rho_P = sum lambda C^mu D^nu/(dA dB)
+  [PASS] 2x4: C == X_A(x)X_B is False
+  [PASS] 2x5: Bell basis orthonormal; [C,D]=0; C,D diagonal in Bell basis; Pi = <C,D>-twirl; rho_P = sum lambda C^mu D^nu/(dA dB)
+  [PASS] 2x5: C == X_A(x)X_B is False
+  [PASS] 3x4: Bell basis orthonormal; [C,D]=0; C,D diagonal in Bell basis; Pi = <C,D>-twirl; rho_P = sum lambda C^mu D^nu/(dA dB)
+  [PASS] 3x4: C == X_A(x)X_B is False
+  [PASS] 3x5: Bell basis orthonormal; [C,D]=0; C,D diagonal in Bell basis; Pi = <C,D>-twirl; rho_P = sum lambda C^mu D^nu/(dA dB)
+  [PASS] 3x5: C == X_A(x)X_B is False
+  [PASS] 3x6: Bell basis orthonormal; [C,D]=0; C,D diagonal in Bell basis; Pi = <C,D>-twirl; rho_P = sum lambda C^mu D^nu/(dA dB)
+  [PASS] 3x6: C == X_A(x)X_B is False
+  [PASS] 4x5: Bell basis orthonormal; [C,D]=0; C,D diagonal in Bell basis; Pi = <C,D>-twirl; rho_P = sum lambda C^mu D^nu/(dA dB)
+  [PASS] 4x5: C == X_A(x)X_B is False
+  [PASS] 4x6: Bell basis orthonormal; [C,D]=0; C,D diagonal in Bell basis; Pi = <C,D>-twirl; rho_P = sum lambda C^mu D^nu/(dA dB)
+  [PASS] 4x6: C == X_A(x)X_B is False
+  [PASS] 2x2: Bell basis orthonormal; [C,D]=0; C,D diagonal in Bell basis; Pi = <C,D>-twirl; rho_P = sum lambda C^mu D^nu/(dA dB)
+  [PASS] 2x2: C == X_A(x)X_B is True
+  [PASS] 3x3: Bell basis orthonormal; [C,D]=0; C,D diagonal in Bell basis; Pi = <C,D>-twirl; rho_P = sum lambda C^mu D^nu/(dA dB)
+  [PASS] 3x3: C == X_A(x)X_B is True
+  [PASS] 4x4: Bell basis orthonormal; [C,D]=0; C,D diagonal in Bell basis; Pi = <C,D>-twirl; rho_P = sum lambda C^mu D^nu/(dA dB)
+  [PASS] 4x4: C == X_A(x)X_B is True
+
+====================================================================================================
+A2. MWKB Eqs. (10)/(17), (21) and Proposition 1 [Phi_1 = Pi] fail for dA < dB, hold for dA = dB
+====================================================================================================
+  [PASS] 2x3: identity (21b) holds = False; Eq.(17)[P=delta00] holds = False (hermitian rhs = False); Phi_1 = Pi holds = False; Phi_1 idempotent = False
+  [PASS] 2x3: <phi00|Phi_1(phi00)|phi00> = (dA+1)(2dA+1)/(6 dA^2) = 0.625000  (computed 0.625000)
+  [PASS] 2x3: P_D = block projection onto (+)_beta V_beta; Phi_1 = avg Ad_S^mu o P_D; Pi = avg Ad_C^mu o P_D
+  [PASS] 2x4: identity (21b) holds = False; Eq.(17)[P=delta00] holds = False (hermitian rhs = False); Phi_1 = Pi holds = False; Phi_1 idempotent = False
+  [PASS] 2x4: <phi00|Phi_1(phi00)|phi00> = (dA+1)(2dA+1)/(6 dA^2) = 0.625000  (computed 0.625000)
+  [PASS] 2x4: P_D = block projection onto (+)_beta V_beta; Phi_1 = avg Ad_S^mu o P_D; Pi = avg Ad_C^mu o P_D
+  [PASS] 2x5: identity (21b) holds = False; Eq.(17)[P=delta00] holds = False (hermitian rhs = False); Phi_1 = Pi holds = False; Phi_1 idempotent = False
+  [PASS] 2x5: <phi00|Phi_1(phi00)|phi00> = (dA+1)(2dA+1)/(6 dA^2) = 0.625000  (computed 0.625000)
+  [PASS] 2x5: P_D = block projection onto (+)_beta V_beta; Phi_1 = avg Ad_S^mu o P_D; Pi = avg Ad_C^mu o P_D
+  [PASS] 3x4: identity (21b) holds = False; Eq.(17)[P=delta00] holds = False (hermitian rhs = False); Phi_1 = Pi holds = False; Phi_1 idempotent = False
+  [PASS] 3x4: <phi00|Phi_1(phi00)|phi00> = (dA+1)(2dA+1)/(6 dA^2) = 0.518519  (computed 0.518519)
+  [PASS] 3x4: P_D = block projection onto (+)_beta V_beta; Phi_1 = avg Ad_S^mu o P_D; Pi = avg Ad_C^mu o P_D
+  [PASS] 3x5: identity (21b) holds = False; Eq.(17)[P=delta00] holds = False (hermitian rhs = False); Phi_1 = Pi holds = False; Phi_1 idempotent = False
+  [PASS] 3x5: <phi00|Phi_1(phi00)|phi00> = (dA+1)(2dA+1)/(6 dA^2) = 0.518519  (computed 0.518519)
+  [PASS] 3x5: P_D = block projection onto (+)_beta V_beta; Phi_1 = avg Ad_S^mu o P_D; Pi = avg Ad_C^mu o P_D
+  [PASS] 3x6: identity (21b) holds = False; Eq.(17)[P=delta00] holds = False (hermitian rhs = False); Phi_1 = Pi holds = False; Phi_1 idempotent = False
+  [PASS] 3x6: <phi00|Phi_1(phi00)|phi00> = (dA+1)(2dA+1)/(6 dA^2) = 0.518519  (computed 0.518519)
+  [PASS] 3x6: P_D = block projection onto (+)_beta V_beta; Phi_1 = avg Ad_S^mu o P_D; Pi = avg Ad_C^mu o P_D
+  [PASS] 4x5: identity (21b) holds = False; Eq.(17)[P=delta00] holds = False (hermitian rhs = False); Phi_1 = Pi holds = False; Phi_1 idempotent = False
+  [PASS] 4x5: <phi00|Phi_1(phi00)|phi00> = (dA+1)(2dA+1)/(6 dA^2) = 0.468750  (computed 0.468750)
+  [PASS] 4x5: P_D = block projection onto (+)_beta V_beta; Phi_1 = avg Ad_S^mu o P_D; Pi = avg Ad_C^mu o P_D
+  [PASS] 4x6: identity (21b) holds = False; Eq.(17)[P=delta00] holds = False (hermitian rhs = False); Phi_1 = Pi holds = False; Phi_1 idempotent = False
+  [PASS] 4x6: <phi00|Phi_1(phi00)|phi00> = (dA+1)(2dA+1)/(6 dA^2) = 0.468750  (computed 0.468750)
+  [PASS] 4x6: P_D = block projection onto (+)_beta V_beta; Phi_1 = avg Ad_S^mu o P_D; Pi = avg Ad_C^mu o P_D
+  [PASS] 2x2: identity (21b) holds = True; Eq.(17)[P=delta00] holds = True (hermitian rhs = True); Phi_1 = Pi holds = True; Phi_1 idempotent = True
+  [PASS] 2x2: P_D = block projection onto (+)_beta V_beta; Phi_1 = avg Ad_S^mu o P_D; Pi = avg Ad_C^mu o P_D
+  [PASS] 3x3: identity (21b) holds = True; Eq.(17)[P=delta00] holds = True (hermitian rhs = True); Phi_1 = Pi holds = True; Phi_1 idempotent = True
+  [PASS] 3x3: P_D = block projection onto (+)_beta V_beta; Phi_1 = avg Ad_S^mu o P_D; Pi = avg Ad_C^mu o P_D
+  [PASS] 4x4: identity (21b) holds = True; Eq.(17)[P=delta00] holds = True (hermitian rhs = True); Phi_1 = Pi holds = True; Phi_1 idempotent = True
+  [PASS] 4x4: P_D = block projection onto (+)_beta V_beta; Phi_1 = avg Ad_S^mu o P_D; Pi = avg Ad_C^mu o P_D
+
+====================================================================================================
+A3. The group G = <T(mu,nu)> = <S, D>: order, commutant, fixed points and limit of Phi_1
+====================================================================================================
+   dA dB | gcd lcm | |G| brute force | lcm*dB*(dB/gcd)^dA | dim Fix(Phi_1) | 2nd largest |eig| of Phi_1
+    2  3 |   1   6 |             162 |                162 |              1 | 0.866025
+  [PASS] 2x3: |G| = lcm*dB*(dB/gcd)^dA = 162
+  [PASS] 2x3: dim Fix(Phi_1) = gcd = 1; eigenvalue 1 is the only peripheral one; orbit twirl E satisfies E Phi_1 = Phi_1 E = E = E^2 (so Phi_1^n -> E)
+    2  4 |   2   4 |              64 |                 64 |              2 | 0.707107
+  [PASS] 2x4: |G| = lcm*dB*(dB/gcd)^dA = 64
+  [PASS] 2x4: dim Fix(Phi_1) = gcd = 2; eigenvalue 1 is the only peripheral one; orbit twirl E satisfies E Phi_1 = Phi_1 E = E = E^2 (so Phi_1^n -> E)
+    2  5 |   1  10 |            1250 |               1250 |              1 | 0.951057
+  [PASS] 2x5: |G| = lcm*dB*(dB/gcd)^dA = 1250
+  [PASS] 2x5: dim Fix(Phi_1) = gcd = 1; eigenvalue 1 is the only peripheral one; orbit twirl E satisfies E Phi_1 = Phi_1 E = E = E^2 (so Phi_1^n -> E)
+    3  4 |   1  12 |            3072 |               3072 |              1 | 0.910684
+  [PASS] 3x4: |G| = lcm*dB*(dB/gcd)^dA = 3072
+  [PASS] 3x4: dim Fix(Phi_1) = gcd = 1; eigenvalue 1 is the only peripheral one; orbit twirl E satisfies E Phi_1 = Phi_1 E = E = E^2 (so Phi_1^n -> E)
+    3  5 |   1  15 |            9375 |               9375 |              1 | 0.942364
+  [PASS] 3x5: |G| = lcm*dB*(dB/gcd)^dA = 9375
+  [PASS] 3x5: dim Fix(Phi_1) = gcd = 1; eigenvalue 1 is the only peripheral one; orbit twirl E satisfies E Phi_1 = Phi_1 E = E = E^2 (so Phi_1^n -> E)
+    3  6 |   3   6 |             288 |                288 |              3 | 0.666667
+  [PASS] 3x6: |G| = lcm*dB*(dB/gcd)^dA = 288
+  [PASS] 3x6: dim Fix(Phi_1) = gcd = 3; eigenvalue 1 is the only peripheral one; orbit twirl E satisfies E Phi_1 = Phi_1 E = E = E^2 (so Phi_1^n -> E)
+    4  5 |   1  20 |           62500 |              62500 |              1 | 0.939347
+  [PASS] 4x5: |G| = lcm*dB*(dB/gcd)^dA = 62500
+  [PASS] 4x5: dim Fix(Phi_1) = gcd = 1; eigenvalue 1 is the only peripheral one; orbit twirl E satisfies E Phi_1 = Phi_1 E = E = E^2 (so Phi_1^n -> E)
+    4  6 |   2  12 |            5832 |               5832 |              2 | 0.836516
+  [PASS] 4x6: |G| = lcm*dB*(dB/gcd)^dA = 5832
+  [PASS] 4x6: dim Fix(Phi_1) = gcd = 2; eigenvalue 1 is the only peripheral one; orbit twirl E satisfies E Phi_1 = Phi_1 E = E = E^2 (so Phi_1^n -> E)
+    2  2 |   2   2 |               4 |                  4 |              4 | 0.000000
+  [PASS] 2x2: |G| = lcm*dB*(dB/gcd)^dA = 4
+  [PASS] 2x2 (control): dim Fix(Phi_1) = dA*dB = 4 and Phi_1 is a projection
+    3  3 |   3   3 |               9 |                  9 |              9 | 0.000000
+  [PASS] 3x3: |G| = lcm*dB*(dB/gcd)^dA = 9
+  [PASS] 3x3 (control): dim Fix(Phi_1) = dA*dB = 9 and Phi_1 is a projection
+    4  4 |   4   4 |              16 |                 16 |             16 | 0.000000
+  [PASS] 4x4: |G| = lcm*dB*(dB/gcd)^dA = 16
+  [PASS] 4x4 (control): dim Fix(Phi_1) = dA*dB = 16 and Phi_1 is a projection
+
+====================================================================================================
+B1. Exact 2x3 counterexample: Pi(|+>|+_01>) has partial-transpose eigenvalue -1/8
+====================================================================================================
+   Bell populations p_{alpha beta} of Pi(|+>|+_01>):
+   [[0.5, 0.125, 0.125], [0.0, 0.125, 0.125]]
+  [PASS] 2x3: populations are p00=1/2, p01=p02=p11=p12=1/8, p10=0
+  [PASS] 2x3: exact Pi agrees with the pinching in the Bell basis
+   exact spectrum of Pi(rho)^{T_A}: {'1/4': 2, '3/8': 1, '-1/8': 1, '1/8': 2}
+  [PASS] 2x3: exact spectrum of the partial transpose is {-1/8, 1/8 (x2), 1/4 (x2), 3/8}
+  [PASS] 2x3: block of Pi(rho)^{T_A} on span{|01>,|10>} is [[1/8,1/4],[1/4,1/8]]
+
+====================================================================================================
+B2. Uniform family for all 2 <= dA < dB: lambda_min(Pi(rho)^{T_A}) = -1/(4 dA), negativity 1/(4 dA)
+====================================================================================================
+  [PASS] all 27 pairs 2 <= dA < dB <= 9 (dA <= 7): exact eigenvector equation, unique negative eigenvalue -1/(4dA)
+  [PASS] r.h.s. of MWKB (20) is entangling for every q in (0,1]: <v|[(1-q)rho + q Pi(rho)]^{T_A}|v> = -q/(4dA)
+  [PASS] control dA = dB in {2,3,4,5}: Pi(product state) is PPT (family state and 200 random product states each)
+
+====================================================================================================
+B3. Maximal negativity of Pi(product state): numerical optimisation (best of many restarts)
+====================================================================================================
+   dA dB | 1/(4dA) (family) | max negativity found | optimiser |a_i|^2 ; |b_j|^2
+    2  3 | 0.125000         | 0.125000             | [0.5, 0.5] ; [0.5, 0.5, 0.0]
+  [PASS] 2x3: optimised negativity 0.125000 >= 1/(4dA) and reproduced by independent code path
+    2  4 | 0.125000         | 0.127964             | [0.5, 0.5] ; [0.214, 0.571, 0.214, 0.0]
+  [PASS] 2x4: optimised negativity 0.127964 >= 1/(4dA) and reproduced by independent code path
+    2  5 | 0.125000         | 0.127964             | [0.5, 0.5] ; [0.571, 0.214, 0.0, 0.0, 0.214]
+  [PASS] 2x5: optimised negativity 0.127964 >= 1/(4dA) and reproduced by independent code path
+    3  4 | 0.083333         | 0.235702             | [0.5, 0.0, 0.5] ; [0.0, 0.5, 0.0, 0.5]
+  [PASS] 3x4: optimised negativity 0.235702 >= 1/(4dA) and reproduced by independent code path
+    3  5 | 0.083333         | 0.175377             | [0.306, 0.388, 0.306] ; [0.13, 0.0, 0.13, 0.37, 0.37]
+  [PASS] 3x5: optimised negativity 0.175377 >= 1/(4dA) and reproduced by independent code path
+    3  6 | 0.083333         | 0.235702             | [0.5, 0.0, 0.5] ; [0.333, 0.0, 0.333, 0.0, 0.333, 0.0]
+  [PASS] 3x6: optimised negativity 0.235702 >= 1/(4dA) and reproduced by independent code path
+    4  5 | 0.062500         | 0.216351             | [0.235, 0.265, 0.265, 0.235] ; [0.12, 0.266, 0.174, 0.174, 0.266]
+  [PASS] 4x5: optimised negativity 0.216351 >= 1/(4dA) and reproduced by independent code path
+    4  6 | 0.062500         | 0.375000             | [0.5, 0.0, 0.0, 0.5] ; [0.0, 0.0, 0.5, 0.0, 0.0, 0.5]
+  [PASS] 4x6: optimised negativity 0.375000 >= 1/(4dA) and reproduced by independent code path
+
+====================================================================================================
+C1. MWKB Eqs. (22)-(24): the displayed state is Pi(phi_theta), not Phi_1(phi_theta)
+====================================================================================================
+  [PASS] 2x3: cos^2 phi00 + sin^2 phi10 equals Pi(phi_theta) for all theta
+  [PASS] 2x3: it differs from Phi_1(phi_theta) [MWKB (19)] for all theta
+  [PASS] 2x3: the true Phi_1(phi_theta) has lambda_min(PT) = -sqrt(2)/4 for every theta (NPT also at theta = 1/2)
+  [PASS] 2x3: Pi(phi_{1/2}) = (|00><00| + |11><11|)/2 is separable although phi_{1/2} is maximally entangled
+
+====================================================================================================
+C2. Downstream results of MWKB that do not use Proposition 1 (Sections III-V)
+====================================================================================================
+  [PASS] 4x6 P(1): PPT (min PT eigenvalue -3.58e-17) and CCNR = sqrt(24) + 0.5536 > sqrt(24)
+  [PASS] 4x6 P(2): PPT (min PT eigenvalue -2.95e-17) and CCNR = sqrt(24) + 0.5536 > sqrt(24)
+  [PASS] 4x4 Eq.(30): PPT and CCNR = 6
+  [PASS] 2x3: exhaustive dichotomous search finds 0 PPT states detected by CCNR, 0 classes up to cyclic row/column shifts (MWKB: 0)
+  [PASS] 2x4: exhaustive dichotomous search finds 0 PPT states detected by CCNR, 0 classes up to cyclic row/column shifts (MWKB: 0)
+  [PASS] 2x5: exhaustive dichotomous search finds 0 PPT states detected by CCNR, 0 classes up to cyclic row/column shifts (MWKB: 0)
+  [PASS] 3x4: exhaustive dichotomous search finds 24 PPT states detected by CCNR, 2 classes up to cyclic row/column shifts (MWKB: 2)
+  [PASS] 4x6 rho_1 [MWKB (38)]: SSC noise threshold on a 40x40 (x,y) grid = 0.1295 (MWKB: ~0.1295)
+  [PASS] 4x6 rho_1 at eps = 0.129: CCNR g(1,1) = +0.0219 > 0 and de Vicente g(0,0) = +0.0035 > 0 (not detected)
+  [PASS] 2x3 |phi00>: moduli of correlation-matrix entries are {1, sqrt3/2 (x2), 1/2 (x14), 0 (x19)} as in MWKB (67)
+
+====================================================================================================
+D. Local symmetries of the Bell basis: only the dephasing group {D^nu} survives when dA < dB
+====================================================================================================
+  [PASS] 2x3: permutation pairs (pi, tau) preserving every block V_beta: 1 (expected 1)
+  [PASS] 2x3: D fixes all Bell projectors = True; X_A(x)X_B fixes all Bell projectors = False
+  [PASS] 2x4: permutation pairs (pi, tau) preserving every block V_beta: 1 (expected 1)
+  [PASS] 2x4: D fixes all Bell projectors = True; X_A(x)X_B fixes all Bell projectors = False
+  [PASS] 3x4: permutation pairs (pi, tau) preserving every block V_beta: 1 (expected 1)
+  [PASS] 3x4: D fixes all Bell projectors = True; X_A(x)X_B fixes all Bell projectors = False
+  [PASS] 3x5: permutation pairs (pi, tau) preserving every block V_beta: 1 (expected 1)
+  [PASS] 3x5: D fixes all Bell projectors = True; X_A(x)X_B fixes all Bell projectors = False
+  [PASS] 2x2: permutation pairs (pi, tau) preserving every block V_beta: 2 (expected 2)
+  [PASS] 2x2: D fixes all Bell projectors = True; X_A(x)X_B fixes all Bell projectors = True
+  [PASS] 3x3: permutation pairs (pi, tau) preserving every block V_beta: 3 (expected 3)
+  [PASS] 3x3: D fixes all Bell projectors = True; X_A(x)X_B fixes all Bell projectors = True
+  [PASS] block dephasing P_D: P_D(product) is PPT (50 random product states per dimension pair) and Pi o P_D = Pi
+
+====================================================================================================
+SUMMARY
+====================================================================================================
+  116 / 116 checks passed;  runtime 94.5 s
+  Table (max negativity of Pi(product state), numerical):
+     2 x 3:  N_max >= 0.125000    family value 1/(4dA) = 0.125000
+     2 x 4:  N_max >= 0.127964    family value 1/(4dA) = 0.125000
+     2 x 5:  N_max >= 0.127964    family value 1/(4dA) = 0.125000
+     3 x 4:  N_max >= 0.235702    family value 1/(4dA) = 0.083333
+     3 x 5:  N_max >= 0.175377    family value 1/(4dA) = 0.083333
+     3 x 6:  N_max >= 0.235702    family value 1/(4dA) = 0.083333
+     4 x 5:  N_max >= 0.216351    family value 1/(4dA) = 0.062500
+     4 x 6:  N_max >= 0.375000    family value 1/(4dA) = 0.062500
